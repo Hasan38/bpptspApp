@@ -1,0 +1,41 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+}
+.modal-dialog  {
+  position: relative;
+    width: 80%;
+    height: 80%;
+    padding: 0;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+
+}
+
+.footer .container p {
+  margin: 10px 0;
+   height: 60px;
+}
+
+.mtop{
+    margin-top: 10px;
+}
+.aw{
+    width: auto;
+}
+.container, .container-fluid{
+    max-width: 980px;
+}
